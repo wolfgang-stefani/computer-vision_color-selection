@@ -21,7 +21,7 @@ rgb_threshold = [red_threshold, green_threshold, blue_threshold]
 thresholds = (image[:,:,0] < rgb_threshold[0]) \
             | (image[:,:,1] < rgb_threshold[1]) \
             | (image[:,:,2] < rgb_threshold[2])
-color_select[thresholds] = [0,0,0] # this blacks out identified pixels below the thresholds
+color_select[thresholds] = [0,0,0] # this blacks out identified pixels below the rgb thresholds
 
 # Display the image                 
 plt.imshow(color_select)
