@@ -1,2 +1,2 @@
 # computer-vision_color-selection
-Several parts of an image can be blacked out according to RGB thresholds and the result are images with only the selected color. This is useful for lane detection where for example only white colors pixels are retained.
+Several parts of an image can be blacked out according to RGB thresholds. The result is an image or a series of images where only the pixels of the selected color remain. This is useful for lane detection where for example only white pixels are retained.
